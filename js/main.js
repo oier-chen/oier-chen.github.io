@@ -397,21 +397,27 @@ color: rgb(244,167,89);
 let styleContent = `
 color: rgb(30,152,255);
 `
-let title1 = '無名の主页'
+let title1 = 'CZOIersの主页'
 let title2 = `
- _____ __  __  _______     ____     __
-|_   _|  \\/  |/ ____\\ \\   / /\\ \\   / /
-  | | | \\  / | (___  \\ \\_/ /  \\ \\_/ / 
-  | | | |\\/| |\\___ \\  \\   /    \\   /  
- _| |_| |  | |____) |  | |      | |   
-|_____|_|  |_|_____/   |_|      |_|                                                     
+
+---
+     ---      --------      -------        -------
+    /               /      /       \          |
+   /               /      /         \         |                      
+  |               /      |           |        |      ----     | /     ---
+  |              /       |           |        |     /    \    |/     /
+   \            /         \         /         |    |------    |      \---\
+    \          /           \       /          |     \         |          /
+     ---      --------      -------        -------   ----     |       ---      
+                                                                    
+                                                                                  
 `
 let content = `
-版 本 号：3.4
-更新日期：2022-07-24
+版 本 号：1.0
+更新日期：2022-11-06
 
-主页:  https://www.imsyy.top
-Github:  https://github.com/imsyy/home
+主页:  http://czoier.top/
+Github:  https://github.com/oier-chen/oier-chen.github.io
 `
 console.log(`%c${title1} %c${title2}
 %c${content}`, styleTitle1, styleTitle2, styleContent)
