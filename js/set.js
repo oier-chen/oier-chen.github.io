@@ -118,10 +118,10 @@ $(document).ready(function () {
         iziToast.show({
             icon: "fa-solid fa-image",
             timeout: 3000,
-            message: '壁纸设置成功，3秒后网页自动刷新并生效',
+            message: '壁纸设置成功，刷新后即可生效',
         });
         setBgImg(bg_img);
-        setTimeout(function(){location.reload()},3000);
+        // setTimeout(function(){location.reload()},3000);
     });
     
 });
