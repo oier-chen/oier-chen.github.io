@@ -136,9 +136,9 @@ $('#hitokoto').click(function () {
 //获取天气
 //请前往 https://www.mxnzp.com/doc/list 申请 app_id 和 app_secret
 //请前往 https://dev.qweather.com/ 申请 key
-const add_id = "wrknltonr0foslhs"; // app_id
-const app_secret = "Nlh1c0F6d0ZDU2pDR0J3YVBVbkhudz09"; // app_secret
-const key = "433f0c48615a48dfaf2f2b2444297e79" // key
+const add_id = "spntjcq1nnnkwft6"; // app_id
+const app_secret = "TkpzVkMvWkOyTVNxYIhQaGxGQUo2QTO9"; // app_secret
+const key = "abaa1a70101b49fc926a431ea9ce73ab" // key
 function getWeather() {
     fetch("https://www.mxnzp.com/api/ip/self?app_id=" + add_id + "&app_secret=" + app_secret)
         .then(response => response.json())
@@ -245,17 +245,12 @@ $("#github").mouseover(function () {
     $("#link-text").html("通过这里联系我");
 });
 $("#qq").mouseover(function () {
-    $("#link-text").html("有什么事吗");
+    $("#link-text").html("欢迎加入CZ-OIers群聊");
 }).mouseout(function () {
     $("#link-text").html("通过这里联系我");
 });
 $("#email").mouseover(function () {
     $("#link-text").html("来封 Email");
-}).mouseout(function () {
-    $("#link-text").html("通过这里联系我");
-});
-$("#bilibili").mouseover(function () {
-    $("#link-text").html("来 B 站看看 ~");
 }).mouseout(function () {
     $("#link-text").html("通过这里联系我");
 });
