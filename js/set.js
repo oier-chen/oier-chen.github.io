@@ -83,7 +83,7 @@ let bg_img_preinstall = {
     "type": "1", // 1:默认背景 2:每日一图 3:随机风景 4:随机动漫
     "2": "https://api.dujin.org/bing/1920.php", // 每日一图
     "3": "https://tu.ltyuanfang.cn/api/fengjing.php", // 随机风景
-    "4": "https://gitcode.net/qq_44112897/imgbed/-/raw/master/comic/74.jpg" // 随机动漫
+    "4": "https://imgapi.xl0408.top" // 随机动漫
 };
 
 // 更改背景图片
