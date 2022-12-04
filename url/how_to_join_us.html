@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    
+    <!-- 基础信息 -->
+    <meta charset="utf-8">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <!-- 强制 HTTPS，若不需要可删除，但可能出现问题 -->
+   <!--  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="force-rendering" content="webkit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#424242" />
+    <title>How to join us</title>
+</head>
+<p>本篇将介绍如何获得子域名。</p>
+<h2>必要条件</h2>
+<s>您得是常州人。</s>
+<p>其实不一定非得是常州人。</p>
+<p>只要您和常州有关系，例如您是外地来到常州学习的学生，或者在常州工作的教练都可以。</p>
+<h2>准备措施</h2>
+<p>填写 ，填写需要的子域名名字、QQ号和洛谷号，然后及时联系lzx妹妹进行添加。</p>
+<p><a href="https://www.luogu.com.cn/chat?uid=426624">洛谷私聊</a>或 QQ 私聊 2210631299。</a></p>
+<p>一般来说lzx妹妹会在7天内与您沟通进行域名添加。</p>
+您需要提供记录类型、线路类型、记录值、权重、优先级、TTL。
+<h3>记录类型</h3>
+
+<details>
+    <summary>记录类型</summary>  
+    <p>A</p>
+    <p>A 记录是最常用类型，将域名指向一个 IPv4 地址，如 8.8.8.8</p>
+    <p>CNAME</p>
+    <p>将域名指向另一个域名地址，与其保持相同解析，如 https://www.dnspod.cn</p>
+    <p>MX</p>
+    <p>用于邮件服务器，相关参数一般由邮件注册商提供</p>
+    <p>TXT</p>
+    <p>可填写附加文本信息，常用于域名验证</p>
+    <p>AAAA</p>
+    <p>将域名指向一个 IPv6 地址，如 ff06:0:0:0:0:0:0:c3</p>
+    <p>NS</p>
+    <p>域名服务器记录，可将指定域名交由其他 DNS 服务商解析管理</p>
+    <p>CAA</p>
+    <p>用于指定域名的证书颁发机构（CA），减少证书颁发风险</p>
+    <p>SRV</p>
+    <p>用于标识某台服务器使用了某个服务，常见于微软系统的目录管理。格式为「服务名字.协议类型」，如 _sip._tcp</p>
+    <p>HTTPS</p>
+    <p>HTTPS 服务绑定记录，有助于提升 HTTPS 安全性及性能</p>
+    <p>SVCB</p>
+    <p>新型服务绑定记录类型，允许服务指向多个客户端，并关联自定义参数值</p>
+    <p>SPF</p>
+    <p>用于指定发送邮件的服务器，是一种高效的反垃圾邮件解决方案</p>
+    <p>显性URL</p>
+    <p>将一个域名重定向至某个具体网页，且显示实际 URL 。仅支持 301 重定向，该记录要求双方域名均已完成备案。</p>
+    <p>隐性URL
+    <p>将一个域名重定向至某个具体网页，但隐藏实际 URL 。仅支持 301 重定向，该记录要求双方域名均已完成备案。</p>
+
+    提供几种常见类型例子：
+
+    CNAME：例如自己有了个博客，想让 czoier.top 下的子域名同步，那么 CNAME 记录值写你的博客。
+
+    A：例如有个 Github 页面，想绑定 czoier.top 下的子域名，A 记录值写 192.30.252.153 和 192.30.252.153。
+
+</details>     
+<h3>线路类型</h3>
+
+仅提供默认（默认）。
+
+<h3>记录值</h3>
+
+参考记录类型提到的。
+
+<h3>权重</h3>
+
+仅提供默认（不填）。
+
+
+<h3>优先级</h3>
+
+仅提供默认（不填）。
+
+<h3>TTL</h3>
+
+仅提供默认（600）。
+
+<body>
+</body>
+
+</html>
