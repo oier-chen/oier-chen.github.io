@@ -399,12 +399,12 @@ color: rgb(30,152,255);
 `
 let title1 = 'CZOIersの主页'
 let title2 = `
-不要忘记开long long
-不要写错freopen                                                                                  
+Made by imsyy.
+Modified by cyx.                                                                           
 `
 let content = `
-版 本 号：1.0
-更新日期：2022-11-06
+版 本 号：1.4
+更新日期：2023-01-16
 
 主页:  http://czoier.top/
 Github:  https://github.com/oier-chen/oier-chen.github.io
